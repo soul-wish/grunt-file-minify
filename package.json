@@ -1,0 +1,57 @@
+{
+  "name": "grunt-file-minify",
+  "description": "A plugin for simple file minification by removing extra whitespaces, tabs and newline characters.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/soulwish/grunt-file-minify",
+  "author": {
+    "name": "Sergey Lysenko",
+    "email": "soulwish.ls@gmail.com",
+    "url": "https://soulwish.info/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soulwish/grunt-file-minify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soulwish/grunt-file-minify/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/soulwish/grunt-file-minify/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "plugin",
+    "file",
+    "files",
+    "clean",
+    "remove",
+    "newline",
+    "lines",
+    "string",
+    "minify",
+    "uglify",
+    "whitespace",
+    "space",
+    "minifier",
+    "uglifier",
+    "strings"
+  ],
+  "dependencies": {
+    "string-minify": "^1.0.0"
+  }
+}
